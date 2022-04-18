@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Waiting for the extension service worker...</title>
+    <script src="/assets/precontroller.js.js"></script>
+  </head>
+  <body>
+    <h1>Waiting for service worker</h1>
+
+    <p>
+      If you see this message, it means the service worker has not loaded fully.
+    </p>
+
+    <p>
+      During development, the service worker reroutes HTML requests to the dev
+      server, so this file isn't used unless the extension service worker opens
+      a page immediately after a full extension reload, and before the service
+      worker takes control of fetch (e.g., in the onInstalled event). In that
+      case, this page will continuously reload until the service worker is
+      ready, always less than 100 ms.
+    </p>
+
+    <p>This page is never added in production.</p>
+  </body>
+</html>

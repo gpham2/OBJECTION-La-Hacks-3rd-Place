@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="icon" type="image/svg+xml" href="favicon.svg" /> --> 
+    <!-- <link rel = "stylesheet" href = "style.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <script src="https://kit.fontawesome.com/9a12603b0a.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Objection!</title>
+   <!--  <style>
+    button {
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-radius: 0;
+    } 
+    </style>  --> 
+  </head>
+  <body>
+    <div class="header">
+      <div class="logo-div">
+        <img src="ObjectionTR.png" class="logo"/>
+        <div class="objection">Objection!</div>
+      </div>
+      <div class="switch-div">
+        <div id="switch-text" class="switch-text"><p>AUTO</p></div>
+        <div id="switch" class="switch">
+            <label class="slider">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+        </div>
+      </div>
+      
+    </div>
+
+    <div class="white">
+      <div class="options-div">
+        <div class="options">
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-dev"></i>
+          <i class="fa-solid fa-person"></i>
+        </div>
+      </div>
+      <div id="app">
+        <div class="column">
+          <div class = "scale">
+            <h3>got confidence?</h3>
+          </div>
+  
+          <div id="progress">
+            <svg viewbox="0 0 110 100">
+              <linearGradient id="gradient" x1="0" y1="0" x2="0" y2="100%">
+                <stop offset="0%" stop-color="#56c4fb" />
+                <stop offset="100%" stop-color="#0baeff" />
+              </linearGradient>
+              <path class="grey" d="M30,90 A40,40 0 1,1 80,90" fill='none' />
+              <path id="blue" fill='none'  class="blue" d="M30,90 A40,40 0 1,1 80,90" />
+      
+              <text id="percentage" x="52%" y="61%" dominant-baseline="middle" text-anchor="middle" style="font-size:18px;">0%</text>
+  
+            </svg>
+          </div>
+  
+  
+          <div id="inspect" class="inspect">
+            Inspect
+          </div>
+  
+        </div>
+        
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

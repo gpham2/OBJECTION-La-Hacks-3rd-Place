@@ -1,0 +1,13 @@
+
+# virtual
+env/
+
+# test outputs
+.pytest_cache
+.coverage
+
+# cache
+__pycache__/
+
+# env
+.env

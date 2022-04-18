@@ -1,0 +1,1 @@
+console.log("entered background");chrome.browserAction.onClicked.addListener(e=>{console.log("Turning "+e.url+" red!"),chrome.tabs.executeScript({code:'document.body.style.backgroundColor="red"'})});alert("hello "+document.location.href);
