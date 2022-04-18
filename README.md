@@ -12,5 +12,5 @@ Placed 3rd at LA HACKS 2022
 * Giang Pham (Fullstack)
 * Lam Hoang (Fullstack)
 * Evan Coons (Front-end)
-* Sweeney Nego (Main Front-end)
+* Sweeney Ngo (Main Front-end)
 * Dan Kao (Main Back-end)
