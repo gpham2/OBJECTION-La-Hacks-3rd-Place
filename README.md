@@ -16,4 +16,4 @@ Placed 3rd at LA HACKS 2022
 * Dan Kao (Main Back-end)
 
 
-(Note: this repository is just a copy of the real repository that our work worked on)
+(Note: this repository is just a copy of the real repository that our group worked on)
